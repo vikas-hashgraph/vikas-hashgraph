@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
       - name: Generate stats SVG
         env:
-          GH_USER: ervikassingh
+          GH_USER: vikas-hashgraph
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT: assets/stats.svg
         run: python scripts/gen_stats.py
