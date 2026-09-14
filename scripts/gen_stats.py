@@ -10,7 +10,7 @@ import urllib.request
 from collections import Counter
 from datetime import datetime, timezone
 
-USER = os.environ.get("GH_USER", "ervikassingh")
+USER = os.environ.get("GH_USER", "vikas-hashgraph")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUT = os.environ.get("OUT", "assets/stats.svg")
 
